@@ -1,0 +1,123 @@
+body {
+  background: #e8eaed;
+}
+
+header {
+  border-bottom: solid;
+  border-color: #cccccc;
+}
+
+h2 {
+  white-space: nowrap;
+}
+
+.content {
+  margin: auto;
+}
+
+.topnav {
+    float: left;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background: #fcfcfc;
+    color: #4aaaa5;
+    padding: 10px 10px 10px 10px;
+}
+
+.toplinks {
+    float: right;
+    color: gray;
+    font-family: "Arial";
+    margin-right: 150px;
+}
+
+.linkone {
+  color: gray;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.linktwo {
+  color: gray;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.linkthree {
+  color: gray;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.sidecontact {
+	  float: right;
+    width: 270px;
+    height: 150px;
+    position: fixed;
+    left: 900px;
+    background: #fcfcfc;
+    color: #4aaaa5;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border: gray;
+    border-style: inset;
+    padding: 10px 10px 10px 10px;
+    margin-top: 150px;
+}
+
+.pics {
+  white-space: nowrap;
+  float: center;
+  display: inline-block;
+  clear: left;
+}
+
+.about-txt, .whitebox {
+    float: left;
+    position: fixed;
+    height: 300px;
+    width: 650px;
+    background: #fcfcfc;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    border: gray;
+    border-style: inset;
+    padding: 10px 10px 10px 10px;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.namebox {
+float: left;
+}
+
+.emailbox {
+  float: left;
+  margin-top: 50px;
+}
+
+.submitbox {
+  float: left;
+}
+
+.myname {
+  float: left;
+  width: 20%;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  margin: 20px 0px 0px 140px;
+  padding: 20px;
+  text-align: center;
+}
+
+.headtxt {
+  color: #4aaaa5;
+  background: transparent;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
