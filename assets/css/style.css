@@ -1,5 +1,7 @@
 body {
   background: #e8eaed;
+  background-image: url("../images/stonehaven.png");
+  background-repeat: repeat;
 }
 
 header {
@@ -9,6 +11,58 @@ header {
 
 h2 {
   white-space: nowrap;
+}
+
+form {
+  float: left;
+  clear: left;
+  display: block;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-width: 5px;
+}
+
+
+input label {
+  display: block;
+  clear: all;
+}
+
+
+.nametxt .emailtxt {
+  float: left;
+  display: block;
+  clear: both;
+}
+
+
+.namebox {
+float: left;
+clear: left;
+margin-top: 5px;
+}
+
+.emailbox {
+  float: left;
+  clear: left;
+  margin-top: 8px;
+}
+
+.submitbox {
+  float: left;
+  clear: left;
+  height: 150px;
+  width: 630px;
 }
 
 .content {
@@ -92,18 +146,7 @@ h2 {
     margin-left: 150px;
 }
 
-.namebox {
-float: left;
-}
 
-.emailbox {
-  float: left;
-  margin-top: 50px;
-}
-
-.submitbox {
-  float: left;
-}
 
 .myname {
   float: left;
@@ -120,4 +163,63 @@ float: left;
   color: #4aaaa5;
   background: transparent;
   font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.aboutpix {
+  display: block;
+  float: left;
+  position: relative;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#subject {
+  margin-top: 40px;
+  margin-left: 8px;
+  height: 140px;
+  width: 630px;
+}
+
+#submit {
+  background: #4aaaa5;
+  color: white;
+  border: none;
+  height: 30px;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  width: 10%;
+  margin-right: 550px;
+}
+
+#cat {
+  display: block;
+  height: 42px;
+  width: 42px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+#fash {
+  display: block;
+  height: 42px;
+  width: 42px;
+}
+
+#tech {
+  display: block;
+  height: 42px;
+  width: 42px;
+}
+
+#city {
+  display: block;
+  height: 42px;
+  width: 42px;
+}
+
+#nature {
+  display: block;
+  height: 42px;
+  width: 42px;
 }
