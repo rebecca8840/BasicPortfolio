@@ -38,6 +38,18 @@ input label {
   clear: all;
 }
 
+.profilephoto {
+  height: 200px;
+  width: 140px;
+  float: left;
+  clear: right;
+  margin-left: 15px;
+}
+
+.p {
+  margin: 10px 20px 15px 10px;
+  display: block;
+}
 
 .nametxt .emailtxt {
   float: left;
@@ -80,28 +92,45 @@ margin-top: 5px;
 }
 
 .toplinks {
+    display: inline-flex;
     float: right;
-    color: gray;
-    font-family: "Arial";
+    color: #777777;
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin-right: 150px;
 }
 
 .linkone {
-  color: gray;
+  float: left;
+  clear: left;
+  padding: 10px;
+  color: #777777;
   text-decoration: none;
   margin: 10px;
   font-size: 16px;
+  border-right: solid;
+  border-color: #dddddd;
 }
 
 .linktwo {
-  color: gray;
+  float: left;
+  clear: center;
+  padding: 10px;
+  color: #777777;
   text-decoration: none;
   margin: 10px;
   font-size: 16px;
+  border-right: solid;
+  border-color: #dddddd;
 }
 
 .linkthree {
-  color: gray;
+  float: left;
+  clear: left;
+  padding: 10px;
+  color: #777777;
   text-decoration: none;
   margin: 10px;
   font-size: 16px;
@@ -117,8 +146,8 @@ margin-top: 5px;
     color: #4aaaa5;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    border: gray;
-    border-style: inset;
+    border: #dddddd;
+    border-style: solid;
     padding: 10px 10px 10px 10px;
     margin-top: 150px;
 }
@@ -139,14 +168,16 @@ margin-top: 5px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
-    border: gray;
-    border-style: inset;
+    border: #dddddd;
+    border-style: solid;
     padding: 10px 10px 10px 10px;
     margin-top: 150px;
     margin-left: 150px;
 }
 
-
+.portfoliopics {
+  display: inline-grid;
+}
 
 .myname {
   float: left;
@@ -163,6 +194,11 @@ margin-top: 5px;
   color: #4aaaa5;
   background: transparent;
   font-family: 'Georgia', Times, Times New Roman, serif;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-right: 300px;
+  border-bottom: solid;
+  border-color: #dddddd;
 }
 
 .aboutpix {
@@ -190,36 +226,4 @@ margin-top: 5px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   width: 10%;
   margin-right: 550px;
-}
-
-#cat {
-  display: block;
-  height: 42px;
-  width: 42px;
-  margin-left: 10px;
-  margin-bottom: 30px;
-}
-
-#fash {
-  display: block;
-  height: 42px;
-  width: 42px;
-}
-
-#tech {
-  display: block;
-  height: 42px;
-  width: 42px;
-}
-
-#city {
-  display: block;
-  height: 42px;
-  width: 42px;
-}
-
-#nature {
-  display: block;
-  height: 42px;
-  width: 42px;
 }
